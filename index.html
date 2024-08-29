@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Advice-Generator-App</title>
 </head>
 <body>
     <main class="container p-5 d-flex flex-column gap-5 rounded-4 text-center w-75">
         <p>ADVICE # 117</p>
         <h1 class="px-2">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed saepe dolor quasi itaque debitis. Porro est iure quisquam sint quas."</h1>
-        <img class="d-none d-md-block w75" src="/Assets/pattern-divider-desktop.svg" alt="desktop-img">
-        <img class="d-md-none" src="/Assets/pattern-divider-mobile.svg" alt="mobile">
-        <div class="border text-center">
-            <img class="Dice" src="/Assets/icon-dice.svg" alt="">
+        <img class="d-none d-md-block divider-img" 
+        src="Assets/pattern-divider-desktop.svg" 
+        alt="desktop-img">
+
+        <img class="d-md-none divider-img"
+        src="Assets/pattern-divider-mobile.svg"
+         alt="mobile">
+
+        <div class="border text-center Dice-Container">
+            <img class="Dice" src="Assets/icon-dice.svg" alt="dice-img" role="button" id="advice-btn">
         </div>
     </main>
     
